@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Featured from "./components/featured/page";
 import Category from "./components/category/page";
 import CardList from "./components/cardlist/page";
