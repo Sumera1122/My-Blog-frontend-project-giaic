@@ -25,30 +25,30 @@ const Footer = () => {
 
 
         <div className='flex gap-10 mt-10 text-[12px] md:text-[14px]'>
-        <p className=' flex flex-1 flex-col space-y-2'>
+        <div className=' flex flex-1 flex-col space-y-2'>
             <h6 className='text-lime-400 font-bold'>Links</h6>
             <Link href="#">Home</Link>
             <Link href="#">About</Link>
             <Link href="#">tour</Link>
             <Link href="#">Contact</Link>
         
-     </p>
-        <p className=' flex flex-1 flex-col space-y-2'>
+     </div>
+        <div className=' flex flex-1 flex-col space-y-2'>
             <h6 className='text-pink-700 font-bold'>Tags</h6>
             <Link href="#">Style</Link>
             <Link href="#">Fashion</Link>
             <Link href="#">Tour</Link>
             <Link href="#">Travel</Link>
         
-     </p>
-        <p className=' flex flex-1 flex-col space-y-2'>
+     </div>
+        <div className=' flex flex-1 flex-col space-y-2'>
             <h6 className='text-yellow-300 font-bold'>Social</h6>
             <Link href="#">Facebook</Link>
             <Link href="#">Instagram</Link>
             <Link href="#">Tiktok</Link>
             <Link href="#">Youtube</Link>
         
-     </p>
+     </div>
 
         </div>
     </footer>
