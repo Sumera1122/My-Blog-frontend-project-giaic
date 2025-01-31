@@ -14,15 +14,6 @@ import Navbar from "./components/navbar/page";
 import { ThemeProvider } from "./components/theme-provider";
 import Footer from "./components/footer";
 
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -36,7 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <ClerkProvider>
-      <html lang="en">
+      <html lang="en" className="light">
         <body>
         <SignedOut>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
@@ -68,5 +59,3 @@ export default function RootLayout({
     </ClerkProvider>
   )
 }
-
-

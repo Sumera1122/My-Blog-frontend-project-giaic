@@ -8,11 +8,11 @@ const Featured = () => {
   const router= useRouter()
   return (
     <div className='mt-[30px]  '>
-      <h1 className='text-3xl font-bold max-sm:text-[20px] max-sm:leading-5'>Hey, lama dev here! <span className='font-normal max-sm:text-[16px] '>Discover my stories and creative ideas.</span></h1>
+      <div className='text-3xl font-bold max-sm:text-[20px] max-sm:leading-5'>Hey, lama dev here! <span className='font-normal max-sm:text-[16px] '>Discover my stories and creative ideas.</span></div>
       <div className='mt-[60px] flex items-center gap-[50px] max-sm:flex-col max-sm:gap-6'>
 
           <div className='flex-1 h-[500px] relative '>
-            <Image src={'/images/p1.jpeg'} alt="pic" fill className='cover'/>
+            <Image src='/images/p1.jpeg' alt="pic" fill className='cover'/>
             </div>
 
             <div className='flex-1 flex flex-col gap-[20px] '>

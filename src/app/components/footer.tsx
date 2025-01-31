@@ -11,14 +11,14 @@ const Footer = () => {
     <footer className='border-t mt-20 mb-20 flex mx-auto'>
         <div className='mt-8 flex-1'> 
             <div className='flex md:text-2xl max-sm:text-[16px] font-bold'>
-                <Image src="/images/cat.jpg" alt="pic"  width={100} height={100} className='rounded-[50%]' /> Blog
+            <Image src="/images/cat.jpg" alt="pic" width={100} height={100} className="rounded-[50%]" priority /> Blog
             </div>
             <p className='text-[10px] md:text-[14px]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sunt necessitatibus autem culpa. At, necessitatibus? Omnis!</p>
             <div className=' flex flex-1 space-x-1 text-[16px] '>
-        <Link href="#"><MdFacebook className='text-blue-800 '/></Link>
-        <Link href="#"> <FaSquareInstagram  className='text-pink-400'/></Link>
-        <Link href="#"> <AiFillTikTok className='' /></Link>
-        <Link href="#"><FaYoutube className=' text-red-600' /></Link>
+        <Link href="/"><MdFacebook className='text-blue-800 '/></Link>
+        <Link href="/"> <FaSquareInstagram  className='text-pink-400'/></Link>
+        <Link href="/"> <AiFillTikTok className='' /></Link>
+        <Link href="/"><FaYoutube className=' text-red-600' /></Link>
         </div>
         </div>
 
